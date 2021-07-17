@@ -20,7 +20,7 @@ body {
     width: 100%;
     max-width: 2586px;
     min-width: 414;
-    height: auto;
+    height: 110px;
 }
 
 #header article {
@@ -30,9 +30,9 @@ body {
 }
 
 #header article a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-decoration: none;
-    margin-top: 7%;
+    margin-top: 6%;
     margin-right: 5%;
     color: white;
     font-weight: 600;
