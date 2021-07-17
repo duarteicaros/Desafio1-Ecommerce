@@ -11,10 +11,10 @@
 ## Requesitos
 
 <ul>
-    <li><a href="">HTML5</a></li>
-    <li><a href="">CSS3</a></li>    
-    <li><a href="">JavaScript</a></li>
-    <li><a href="https://git-scm.com/downloads">Git</a></li>   
+    <li>HTML5</li>
+    <li>CSS3</li>    
+    <li>JavaScript</li>
+    <li>Git</li>   
 </ul>
 
 ## Executando
