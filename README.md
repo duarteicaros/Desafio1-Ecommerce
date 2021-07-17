@@ -28,3 +28,12 @@ git clone https://github.com/duarteicaros/Desafio1-Ecommerce
 cd Desafio1-Ecommerce
 
 ```
+
+## Visite o site
+
+> Acesso o link
+```sh
+https://duarteicaropromocoes.netlify.app/
+
+```
+
