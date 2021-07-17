@@ -1,4 +1,5 @@
-<h1 align="center">Duarte Icaro - Promoções</h1>
+<h1 align="center">Gama Academy | Hiring Coders</h1>
+<h2 align="center">Duarte Icaro - Promoções</h2>
 
 <p align="center">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/duarteicaros/Desafio1-Ecommerce?color=blue">
