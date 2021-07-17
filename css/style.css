@@ -20,7 +20,7 @@ body {
     width: 100%;
     max-width: 2586px;
     min-width: 414;
-    height: auto;
+    height: 110px;
 }
 
 #header article {
@@ -30,16 +30,16 @@ body {
 }
 
 #header article a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-decoration: none;
-    margin-top: 7%;
+    margin-top: 6%;
     margin-right: 5%;
     color: white;
     font-weight: 600;
 }
 
 #header article a:hover {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     cursor: pointer;
     transition: all 0.4s;
     color: #FFC801;
@@ -47,14 +47,20 @@ body {
 
 .logo {
     justify-content: left;
-    width: 70%;
-    height: 74%;
-    padding-top: 0.5rem;
+    width: 60%;
+    height: 78%;
+    padding-top: 0.8rem;
 }
 
 /*  BANNER*/
 .banner {
-    padding-top: 9rem;
+    padding-top: 6.5rem;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.img-banner{
+    width: 100%;
 }
 
 .img-banner{
@@ -63,17 +69,15 @@ body {
 
 #f_banner {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 5rem;
-    padding-left: 6rem;
-    padding-right: 0;
-    margin-top: -30rem;
+    font-size: 4rem;
+    padding-left: 8rem;
+    margin-top: -22rem;
 }
 
 #f_banner_2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2.5rem;
-    padding-left: 6rem;
-    padding-right: 0;
+    font-size: 2rem;
+    padding-left: 8rem;
 }
 
 #f_banner_2 span {
@@ -84,9 +88,8 @@ body {
 
 #f_banner_3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2.5rem;
-    padding-left: 6rem;
-    padding-right: 0;
+    font-size: 2rem;
+    padding-left: 8rem;
 }
 
 /*  ESTILO WALL */
@@ -114,7 +117,7 @@ body {
 
 .texto1 {
     max-width: 40rem;
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     letter-spacing: 0.3rem
 }
 
@@ -124,7 +127,7 @@ body {
 }
 
 .gameboy {
-    width: 110%;
+    width: 100%;
     /* margin-left: 1rem; */
 }
 
@@ -139,15 +142,15 @@ body {
 .texto2 {
     color: #000;
     max-width: 80rem;
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     letter-spacing: 0.4rem;
     text-align: center;
 }
 
 .texto2 span {
-    font-size: 4rem;
+    font-size: 3.1rem;
     letter-spacing: 0.5rem;
-    font-weight: 400;
+    font-weight: bold;
     color: #FFC801;
 }
 
@@ -155,32 +158,35 @@ body {
     background-color: rgba(0, 0, 0, 0.808);
     border-radius: 2px;
     padding: 3rem;
-    width: 70rem;
-    height: 12rem;
+    width: 50rem;
+    height: 10rem;
     max-width: 70rem;
     min-width: 2rem;
     display: grid;
+    justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    margin-left: 11rem;
 }
 
 input {
     width: 100%;
-    height: 3rem;
-    margin-bottom: 1rem;
+    height: 2.7rem;
+    margin-bottom: 0.8rem;
     text-align: center;
     border-radius: 2px;
     background: #fff;
     color: #000;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 #mesage-error {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: rgb(194, 35, 35);
     justify-content: center;
     align-items: center;
     letter-spacing: 0.2rem;
+    font-weight: bold;
 }
 
 #submit {
@@ -188,7 +194,7 @@ input {
     color: #000;
     border-radius: 2px;
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 #submit:hover {
@@ -203,7 +209,7 @@ input {
 #novidades {
     background-color: #000;
     margin-top: 5rem;
-    padding: 3rem 3rem;
+    padding: 2.5rem 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,7 +217,7 @@ input {
 }
 
 .novidades {
-    font-size: 2.7rem;
+    font-size: 2rem;
     color: #ffffff;
     letter-spacing: 0.5rem;
 }
@@ -225,29 +231,29 @@ input {
     flex-wrap: wrap;
     vertical-align: baseline;
     align-items: center;
-    height: 35rem;
+    height: 30rem;
     background-color: #f1f1f1;
 }
 
 .img_prod {
-    width: 24rem;
+    width: 23rem;
 }
 
 .atari {
-    width: 19rem;
-    padding: 3.5rem 0 3.6rem 0;
+    width: 17rem;
+    padding: 3rem 0 3.4rem 0;
 
 }
 
 .playstation {
-    width: 17rem;
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
+    width: 15rem;
+    padding-bottom: 1.6rem;
+    padding-top: 0.9rem;
 }
 
 .preco {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 50px 0;
 }
 
@@ -257,7 +263,7 @@ input {
 }
 
 .p-novo {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: darkred;
 }
@@ -272,17 +278,17 @@ input {
 
 footer {
     height: 100%;
-    padding: 5rem;
+    padding: 3rem;
     text-align: center;
     background-color: black;
     color: white;
 }
 
 .text-footer {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: 0.1rem;
     font-weight: 100;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 ul.social-network {
@@ -302,7 +308,7 @@ ul.social-network li a {
 }
 
 .fa {
-    font-size: 2.7rem;
+    font-size: 2rem;
     color: #fff;
     padding: 1.5rem;
 }
@@ -321,4 +327,8 @@ ul.social-network li a {
 
 .fa-github-square:hover {
     color: rgb(23, 238, 52);
+}
+
+.copyright{
+    font-size: 0.7rem;
 }
