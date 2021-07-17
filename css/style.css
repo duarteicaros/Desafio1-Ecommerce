@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ESTILOS HEADER */
+#header {
+    display: flex;
+    position: fixed;
+    background-color: #000;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 2586px;
+    min-width: 414;
+    height: auto;
+}
+
+#header article {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#header article a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-top: 7%;
+    margin-right: 5%;
+    color: white;
+    font-weight: 600;
+}
+
+#header article a:hover {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.4s;
+    color: #FFC801;
+}
+
+.logo {
+    justify-content: left;
+    width: 70%;
+    height: 74%;
+    padding-top: 0.5rem;
+}
+
+/*  BANNER*/
+.Banner {
+    padding-top: 9rem;
+}
+
+#f_banner {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5.5rem;
+    padding-left: 15rem;
+    margin-top: -30rem;
+}
+
+#f_banner_2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    padding-left: 15rem;
+}
+
+#f_banner_2 span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+}
+
+#f_banner_3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    padding-left: 15rem;
+}
+
+/*  ESTILO WALL */
+.section-container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-one {
+    background-image: url('../assets/wall.jpg');
+}
+
+.texto_cadastro {
+    color: #FFC801;
+}
+
+.texto1 {
+    max-width: 40rem;
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem
+}
+
+.texto1 span {
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.gameboy {
+    width: 110%;
+    /* margin-left: 1rem; */
+}
+
+/* ESTILO CADASTRE-SE */
+.cadastro {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto2 {
+    color: #000;
+    max-width: 80rem;
+    font-size: 3.5rem;
+    letter-spacing: 0.4rem;
+    text-align: center;
+}
+
+.texto2 span {
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    font-weight: 400;
+    color: #FFC801;
+}
+
+.card-container {
+    background-color: rgba(0, 0, 0, 0.808);
+    border-radius: 2px;
+    padding: 3rem;
+    width: 70rem;
+    height: 12rem;
+    max-width: 70rem;
+    min-width: 2rem;
+    display: grid;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+input {
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    border-radius: 2px;
+    background: #fff;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+#mesage-error {
+    font-size: 1.3rem;
+    color: rgb(194, 35, 35);
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2rem;
+}
+
+#submit {
+    background-color: #FFC801;
+    color: #000;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+#submit:hover {
+    transition: all 0.4s;
+    background-color: #000;
+    color: #FFC801;
+    border-radius: 2px;
+}
+
+/* ESTILO NOVIDADES */
+
+#novidades {
+    background-color: #000;
+    margin-top: 5rem;
+    padding: 3rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.3rem;
+}
+
+.novidades {
+    font-size: 2.7rem;
+    color: #ffffff;
+    letter-spacing: 0.5rem;
+}
+
+/* ESTILO PRODUTOS */
+
+.produtos {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    vertical-align: baseline;
+    align-items: center;
+    height: 35rem;
+    background-color: #f1f1f1;
+}
+
+.img_prod {
+    width: 30rem;
+}
+
+.atari {
+    width: 25rem;
+    padding: 4rem 0 3.6rem 0;
+
+}
+
+.playstation {
+    width: 22rem;
+    padding-bottom: 0.5rem;
+}
+
+.preco {
+    text-align: center;
+    font-size: 2rem;
+    padding: 50px 0;
+}
+
+.p-antigo {
+    text-decoration: line-through;
+    color: darkgray;
+}
+
+.p-novo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: darkred;
+}
+
+.bold:hover {
+    transition: all 0.5s;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgba(0, 0, 0, 0.44);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 6px 27px 14px rgba(0, 0, 0, 0.44);
+}
+
+/* ESTILO FOOTER */
+
+footer {
+    height: 100%;
+    padding: 5rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.text-footer {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0;
+    padding: 5px;
+}
+
+ul.social-network li a {
+    text-decoration: none;
+}
+
+.fa {
+    font-size: 2.7rem;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+.fa-facebook-square:hover {
+    color: #1c449c;
+}
+
+.fa-linkedin-square:hover {
+    color: #1091d6;
+}
+
+.fa-instagram:hover {
+    color: #C13584;
+}
+
+.fa-github-square:hover {
+    color: rgb(23, 238, 52);
+}
